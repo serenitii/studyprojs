@@ -1,21 +1,15 @@
-import { create } from 'zustand'
+'use client'
 
-type Store = {
-  count: number
-  inc: () => void
-}
+import { useStoreCount } from '@/app/stores/count'
 
-const useStore = create<Store>()((set) => ({
-  count: 1,
-  inc: () => set((state) => ({ count: state.count + 1 })),
-}))
-
-function Counter() {
-  const { count, inc } = useStore()
+export default function Counter() {
+  const { count, inc } = useStoreCount()
   return (
-    <div>
-      <span>{count}</span>
-      <button onClick={inc}>one up</button>
+    <div className="bg-amber-100">
+      <span className="text-2xl">{count}</span>
+      <button className="text-4xl" onClick={inc}>
+        one up
+      </button>
     </div>
   )
 }

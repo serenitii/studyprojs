@@ -16,6 +16,10 @@ pnpm create next-app@latest elearning-nextapp
 
 **prettier configurations** (in package.json)
 
+```sh 
+pnpm add -D prettier -w 
+```
+
 ```json
 {
   "prettier": {
@@ -31,13 +35,21 @@ pnpm create next-app@latest elearning-nextapp
 
 [tailwind play](https://play.tailwindcss.com/)
 
-[note](https://lopunko.notion.site/Tailwindcss-1caa346f20fa804eb6d9c5a4ca563094)
+[lecture-note](https://lopunko.notion.site/Tailwindcss-1caa346f20fa804eb6d9c5a4ca563094)
 
 
 **zustand**
 
-```sh
- pnpm add zustand
+```sh[README.md](../../README.md)
+ pnpm add zustand -w
+```
+
+**react-query**
+
+[lecture-note](https://lopunko.notion.site/React-Query-1caa346f20fa802aa7a0d8ffcef30244)
+
+```sh 
+pnpm add @tanstack/react-query -w
 ```
 
 
