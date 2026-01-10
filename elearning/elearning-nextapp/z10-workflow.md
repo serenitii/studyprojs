@@ -8,13 +8,13 @@
 
 ## flow
 
-프로젝트 생성 
+**프로젝트 생성** 
 
 ```shell
 pnpm create next-app@latest elearning-nextapp
 ```
 
-prettier configurations (in package.json)
+**prettier configurations** (in package.json)
 
 ```json
 {
@@ -26,3 +26,19 @@ prettier configurations (in package.json)
   }
 } 
 ```
+
+**tailwindcss**
+
+[tailwind play](https://play.tailwindcss.com/)
+
+[note](https://lopunko.notion.site/Tailwindcss-1caa346f20fa804eb6d9c5a4ca563094)
+
+
+**zustand**
+
+```sh
+ pnpm add zustand
+```
+
+
+
