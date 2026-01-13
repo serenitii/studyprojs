@@ -46,11 +46,23 @@ pnpm add -D prettier -w
 
 **react-query**
 
+[docs]()
+
 [lecture-note](https://lopunko.notion.site/React-Query-1caa346f20fa802aa7a0d8ffcef30244)
 
 ```sh 
 pnpm add @tanstack/react-query -w
+pnpm add @tanstack/react-query-devtools -w
 ```
+
+
+**nestjs**
+
+[lecture-note](https://lopunko.notion.site/NestJS-NestJS-1d8a346f20fa804ea50ef2e136f36797?pvs=4)
+
+[IoC, DI](https://lopunko.notion.site/NestJS-IoC-Inversion-of-Control-DI-Dependency-Injection-1d8a346f20fa808cb259f30f9811061f?pvs=4)
+
+[nestjs 구조](https://lopunko.notion.site/NestJS-NestJS-Module-Controller-Service-1d8a346f20fa8011974fc7d9c6647640?pvs=4)
 
 
 

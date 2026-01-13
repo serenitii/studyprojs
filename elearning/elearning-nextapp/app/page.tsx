@@ -9,6 +9,11 @@ export default function Home() {
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <ul>
             <li>
+              <Link className="underline" href="dev">
+                dev
+              </Link>
+            </li>
+            <li>
               <Link className="underline" href="dev/zustand">
                 zustand
               </Link>
