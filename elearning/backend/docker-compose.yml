@@ -1,8 +1,9 @@
 version: '3.8'
 services:
-  postgres:
-    image: postgres:latest
-    container_name: inflearn-clone-db
+  db:
+    image: postgres:15
+    container_name: c-postgres
+    restart: always
     ports:
       - "3332:5432"
     environment:
