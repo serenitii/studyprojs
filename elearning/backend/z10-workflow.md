@@ -32,3 +32,25 @@ pnpm add @prisma/client
 # npx prisma init
 pnpm dlx prisma init
 ```
+
+```sh
+pnpm prisma generate
+```
+
+```sh
+pnpm prisma db push
+```
+
+```sh
+pnpm prisma studio 
+```
+
+dotEnv    
+```dotenv
+DATABASE_URL="postgresql://prisma:prismapassW@61.75.92.244:3332/inflearn_clone?schema=public"
+```
+
+```sh  
+pnpm add @nestjs/config
+```
+
