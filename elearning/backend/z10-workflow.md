@@ -22,4 +22,13 @@ nest new elearning-nestapp
 [docker](https://lopunko.notion.site/Docker-PostgreSQL-1d1a346f20fa8091b865f388f0155fcf?pvs=4)
 
 
+** prisma **
 
+```sh 
+pnpm add -D prisma
+
+pnpm add @prisma/client
+
+# npx prisma init
+pnpm dlx prisma init
+```
