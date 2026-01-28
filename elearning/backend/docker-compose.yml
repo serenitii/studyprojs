@@ -4,10 +4,10 @@ services:
     image: postgres:latest
     container_name: inflearn-clone-db
     ports:
-      - "5432:5432"
+      - "3332:5432"
     environment:
       POSTGRES_USER: prisma
-      POSTGRES_PASSWORD: prismapassw
+      POSTGRES_PASSWORD: prismapassW
       POSTGRES_DB: inflearn_clone
     volumes:
       - inflearn_clone_db:/var/lib/postgresql/data
