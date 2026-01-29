@@ -37,3 +37,16 @@ pnpm add -D prettier
 pnpm add zustand
 ```
 
+**react-query**
+
+[docs]()
+
+[lecture-note](https://lopunko.notion.site/React-Query-1caa346f20fa802aa7a0d8ffcef30244)
+
+```sh 
+pnpm add @tanstack/react-query
+pnpm add @tanstack/react-query-devtools
+```
+
+
+
