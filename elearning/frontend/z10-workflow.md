@@ -39,8 +39,9 @@ pnpm add -D prettier -w
 
 
 **zustand**
+[README.md](../../README.md)
 
-```sh[README.md](../../README.md)
+```sh
  pnpm add zustand -w
 ```
 
