@@ -1,4 +1,9 @@
 
+## Brief
+
+- nextjs + shadcn/ui + authjs + prisma + postgresql
+- [ref tutorial](https://youtu.be/k-wTsBLiVLg)
+
 
 ## setup flow
 
@@ -23,4 +28,13 @@ pnpm add -D prettier
     "printWidth": 120
   }
 } 
+```
+
+**auth.js**
+
+[docs](https://authjs.dev/getting-started/installation)
+
+```sh 
+pnpm add next-auth@beta
+pnpm dlx auth secret
 ```
