@@ -54,3 +54,15 @@ DATABASE_URL="postgresql://prisma:prismapassW@61.75.92.244:3332/inflearn_clone?s
 pnpm add @nestjs/config
 ```
 
+**auth.js**
+
+[authjs prisma](https://authjs.dev/getting-started/adapters/prisma) 에서 스키마 복사한 후,
+
+```sh  
+pnpm prisma migrate reset
+pnpm exec prisma migrate dev
+pnpm exec prisma generate
+```
+
+
+
